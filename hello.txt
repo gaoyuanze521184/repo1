@@ -1,1 +1,7 @@
 222222222222222222
+
+
+按Win+R键打开运行对话框，输入 regedit.exe ，准备修改注册表； 
+找到 HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explorer； 
+新建一个键名称为 “Max Cached Icons” 数据设置为 “2000”； 
+重启一下电脑，图标就可以显示了。
